@@ -81,19 +81,19 @@ EXECUTE cadastrar_cliente;
 
 Resultado:
 
-```text
+```
 Cliente cadastrado com sucesso!
 ```
 
 Podemos verificar:
 
-```sql
+```
 SELECT * FROM clientes;
 ```
 
 Resultado:
 
-```text
+```
 ID    NOME    IDADE
 1     João    25
 ```
@@ -214,7 +214,7 @@ que é uma **variável interna**.
 
 Executando:
 
-```sql
+```
 SET SERVEROUTPUT ON;
 
 EXECUTE buscar_cliente(1);
@@ -222,7 +222,7 @@ EXECUTE buscar_cliente(1);
 
 Resultado:
 
-```text
+```
 João
 ```
 
@@ -274,7 +274,7 @@ Agora:
     EXECUTE buscar_cliente(10);
 ```
 Como o cliente `10` não existe:
-```text
+```
     Cliente não encontrado.
 ```
 
@@ -297,7 +297,7 @@ Podemos utilizar uma procedure para alterar a idade de um cliente.
 
 Executando:
 
-```sql
+```
     SET SERVEROUTPUT ON;
     EXECUTE aumentar_idade(1);
 ```
@@ -451,7 +451,7 @@ O `ROLLBACK` desfaz as alterações que ainda não foram confirmadas.
 
 No nosso exemplo, se ocorrer um erro antes do `COMMIT`:
 
-```text
+```
     INSERT
     ↓
     UPDATE
