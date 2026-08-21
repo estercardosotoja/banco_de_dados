@@ -231,7 +231,7 @@ Cria um ponto de retorno dentro de uma transação. Podemos voltar ao SAVEPOINT 
 
 Uma transação confiável possui quatro propriedades fundamentais.
 
-A → Atomicidade -  Tudo ou nada;
-C → Consistência - A transação deve manter o banco obedecendo às regras;
-I → Isolamento - Quando várias transações acontecem ao mesmo tempo, uma não deve interferir incorretamente na outra;
-D → Durabilidade - Alteração confirmada permanece;
+- **A** → Atomicidade -  Tudo ou nada;
+- **C** → Consistência - A transação deve manter o banco obedecendo às regras;
+- **I** → Isolamento - Quando várias transações acontecem ao mesmo tempo, uma não deve interferir incorretamente na outra;
+- **D** → Durabilidade - Alteração confirmada permanece;
